@@ -1,0 +1,10 @@
+.header {
+	display: grid;
+	grid-template-columns: 4rem 1fr 4rem;
+}
+
+.header h1 {
+	grid-column-start: 2;
+	text-align: center;
+	margin: 0;
+}
