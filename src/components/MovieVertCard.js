@@ -8,7 +8,7 @@ const MovieVertCard = ({ image, title, rating }) => {
 				loading="lazy"
 			/>
 			<h3>{title}</h3>
-			<p className="movieVertCard__rating"><i class="fa-solid fa-star"></i> {rating}/10 IMDb</p>
+			<p className="movieVertCard__rating"><i className="fa-solid fa-star"></i> {rating}/10 IMDb</p>
 		</article>
 	);
 };
