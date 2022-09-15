@@ -10,18 +10,23 @@
 .moviecard img {
 	width: 6rem;
 }
-.moviecard h2 {
+.moviecard h3 {
 	font-size: 1rem;
 	margin: 0;
 }
 .moviecard__imdb {
+	font-size: 0.85rem;
 	margin: 0.5rem 0;
 }
 .moviecard__genre {
 	display: inline-block;
-	font-size: 0.75rem;
-	padding: 0.1rem 0.5rem 0.3rem;
-	background-color: lightblue;
+	font-size: 0.6rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #88A4E8;
+	letter-spacing: 5%;
+	padding: 0.2rem 0.5rem 0.2rem;
+	background-color: #DBE3FF;
 	margin-right: 0.3rem;
 	border-radius: 1rem;
 }

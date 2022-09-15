@@ -7,8 +7,8 @@ const MovieVertCard = ({ image, title, rating }) => {
 				alt={`${title} poster`}
 				loading="lazy"
 			/>
-			<h2>{title}</h2>
-			<p> {rating}/10 IMDb</p>
+			<h3>{title}</h3>
+			<p className="movieVertCard__rating"> {rating}/10 IMDb</p>
 		</article>
 	);
 };

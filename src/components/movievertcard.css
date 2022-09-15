@@ -16,13 +16,14 @@
 	height: auto;
 	border-radius: 0.5rem;
 	box-shadow: 0.25rem 0.25rem 1rem rgb(100, 100, 100);
+	margin-bottom: 0.5rem;
 }
 
-.movieVertCard h2 {
+.movieVertCard h3 {
 	font-size: 1rem;
 	margin: 0.2rem 0;
 }
 .movieVertCard p {
-	font-size: 0.7rem;
+	font-size: 0.85rem;
 	margin: 0;
 }

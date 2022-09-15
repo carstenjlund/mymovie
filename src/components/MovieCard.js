@@ -12,7 +12,7 @@ const MovieCard = ({ movie }) => {
 				loading="lazy"
 			/>
 			<div>
-				<h2>{movie.title}</h2>
+				<h3>{movie.title}</h3>
 				<p className="moviecard__imdb">{movie.vote_average}/10 IMDb</p>
 				<p>
 					{movie?.genre_ids.map((id) => {
