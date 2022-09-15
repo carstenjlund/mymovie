@@ -9,4 +9,6 @@ body {
 h1,
 h2 {
 	font-family: "Merriweather", serif;
+	font-size: 1.25rem;
+	color: #110E47;
 }
