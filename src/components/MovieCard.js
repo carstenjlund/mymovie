@@ -13,7 +13,7 @@ const MovieCard = ({ movie }) => {
 			/>
 			<div>
 				<h3>{movie.title}</h3>
-				<p className="moviecard__imdb">{movie.vote_average}/10 IMDb</p>
+				<p className="moviecard__imdb"><i class="fa-solid fa-star"></i> {movie.vote_average}/10 IMDb</p>
 				<p>
 					{movie?.genre_ids.map((id) => {
 						let currentGenre = genres?.find(

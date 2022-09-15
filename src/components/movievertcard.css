@@ -15,7 +15,7 @@
 	width: 100%;
 	height: auto;
 	border-radius: 0.5rem;
-	box-shadow: 0.25rem 0.25rem 1rem rgb(100, 100, 100);
+	box-shadow: 0.25rem 0.35rem 0.5rem rgb(150, 150, 150);
 	margin-bottom: 0.5rem;
 }
 
@@ -23,7 +23,12 @@
 	font-size: 1rem;
 	margin: 0.2rem 0;
 }
-.movieVertCard p {
+.movieVertCard__rating {
 	font-size: 0.85rem;
 	margin: 0;
+}
+
+.movieVertCard__rating i {
+	color: gold;
+	margin-right: 0.25rem;
 }
