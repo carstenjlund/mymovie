@@ -17,3 +17,11 @@
 .moviecard__imdb {
 	margin: 0.5rem 0;
 }
+.moviecard__genre {
+	display: inline-block;
+	font-size: 0.75rem;
+	padding: 0.1rem 0.5rem 0.3rem;
+	background-color: lightblue;
+	margin-right: 0.3rem;
+	border-radius: 1rem;
+}

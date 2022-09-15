@@ -10,11 +10,10 @@ const Popular = () => {
 			"https://api.themoviedb.org/3/movie/popular?region=DK&api_key=c28b09251184479f999a2baafd615444"
 		).then((response) => setMovies(response.data.results));
 	}, []);
-	movies && console.log(movies);
 	return (
 		<section>
 			{movies?.map((movie) => (
-				<MovieCard movie={movie} />
+				<MovieCard key={movie.id} movie={movie} />
 			))}
 		</section>
 	);
