@@ -5,6 +5,13 @@
 	height: 4.5rem;
 	align-items: center;
 }
+.header.subpage {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
 
 .header h1 {
 	grid-column-start: 2;
