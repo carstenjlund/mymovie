@@ -1,9 +1,6 @@
+import MovieDetails from "../components/MovieDetails";
 const Detail = () => {
-    return ( 
-        <div>
-            <h2>Detail</h2>
-        </div>
-     );
-}
- 
+	return <MovieDetails />;
+};
+
 export default Detail;
