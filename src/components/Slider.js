@@ -13,13 +13,21 @@ const Slider = () => {
 	return !movies ? (
 		<h3>Loading...</h3>
 	) : (
-		<section style={{ display: "flex", overflowX: "scroll", gap: "1.25rem", margin: "1rem 0 2.5rem" }}>
+		<section
+			style={{
+				display: "flex",
+				overflowX: "scroll",
+				gap: "1.25rem",
+				margin: "1rem 0 2.5rem",
+			}}
+		>
 			{movies.map((movie) => (
 				<MovieVertCard
 					key={movie.id}
 					image={movie.poster_path}
 					title={movie.title}
 					rating={movie.vote_average}
+					id={movie.id}
 				/>
 			))}
 		</section>
