@@ -1,4 +1,5 @@
 import "./moviecard.css";
+import LazyLoad from "react-lazyload";
 import { useContext } from "react";
 import { GenreContext } from "../contexts/GenreContext";
 
@@ -6,11 +7,13 @@ const MovieCard = ({ movie }) => {
 	const { genres } = useContext(GenreContext);
 	return genres && movie ? (
 		<article className="moviecard">
-			<img
-				src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-				alt={movie.title + " poster"}
-				loading="lazy"
-			/>
+			<LazyLoad>
+				<img
+					src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
+					alt={movie.title + " poster"}
+					loading="lazy"
+				/>
+			</LazyLoad>
 			<div>
 				<h3>{movie.title}</h3>
 				<p className="moviecard__imdb">
