@@ -20,7 +20,7 @@ const MovieDetails = () => {
 			setHours(Math.floor(result.data.runtime / 60));
 			setMinutes(result.data.runtime % 60);
 		});
-	}, []);
+	}, [movie_id]);
 
 	useEffect(() => {
 		axios(
@@ -28,7 +28,7 @@ const MovieDetails = () => {
 		).then((result) => {
 			setCast(result.data.cast);
 		});
-	}, []);
+	}, [movie_id]);
 
 	cast && console.log(cast);
 	return !cast && !details ? (
