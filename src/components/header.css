@@ -18,3 +18,6 @@
 	text-align: center;
 	margin: 0;
 }
+.switch {
+	grid-column-start: 3;
+}

@@ -1,6 +1,7 @@
 import "./header.css";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import ToggleSwitch from "./ToggleSwitch";
 const Header = () => {
 	const location = useLocation();
 	return (
@@ -12,8 +13,8 @@ const Header = () => {
 			{location.pathname.startsWith("/detail") && (
 				<Link to="/">&larr;</Link>
 			)}
-			<h1>MyMovie</h1>
-			<button>switch</button>
+			{!location.pathname.startsWith("/detail") && <h1>MyMovie</h1>}
+			<ToggleSwitch />
 		</header>
 	);
 };

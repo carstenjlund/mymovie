@@ -1,0 +1,25 @@
+.top {
+    width: 100vw;
+    height: 16rem;
+    box-sizing: border-box;
+}
+.top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details__content {
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    position: absolute;
+    top: 15rem;
+    z-index: 40;
+    background-color: white;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.details__content h2 {
+    margin-top: 0;
+}
