@@ -4,5 +4,8 @@
 	left: 0;
 	right: 0;
 	height: 4rem;
-	background-color: orange;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	gap: 1.5rem;
 }
